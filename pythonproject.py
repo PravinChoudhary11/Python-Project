@@ -87,5 +87,5 @@ plt.show()
 # Section 5 
 print("\n📊 Descriptive Analysis:")
 print("\nGrouped Mean Values by Indicator and Subgroup:")
-summary = df.groupby(['Indicator', 'Subgroup'])['Value'].mean()
+summary = data.groupby(['Indicator', 'Subgroup'])['Value'].mean()
 print(summary)
